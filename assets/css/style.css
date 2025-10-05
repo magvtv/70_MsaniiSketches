@@ -48,6 +48,15 @@
    */
 
   --ff-recoleta: "Recoleta", serif;
+
+  /**
+   * loading animation
+   */
+  --loading-bg: var(--smokey-black);
+  --loading-text-color: var(--white);
+  --loading-dot-size: 8px;
+  --loading-dot-space: 4px;
+  --loading-dot-color: var(--white);
   --ff-gordita: "Gordita", sans-serif;
   
   --fs-1: 6rem;
@@ -319,36 +328,39 @@ body.active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: var(--white);
   z-index: 5;
-  transform-origin: bottom;
-  transition: 0.5s var(--cubic-in);
-  transition-delay: 0.5s;
+  display: grid;
+  place-content: center;
+  transition: var(--transition-1);
 }
 
 .loading.loaded {
-  transform: scaleY(0);
-  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .loading > * {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: var(--transition-2);
+  transition: var(--transition-1);
+}
+
+.loading .circle { 
+  animation: rotate360 1.5s linear infinite; 
+  margin-top: 15px;
+}
+
+.loading .ms-logo {
+  font-size: 32px;
+}
+
+@keyframes rotate360 {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(1turn); }
 }
 
 .loading.loaded > * { opacity: 0; }
-
-.loading .circle { animation: rotate360 1.5s linear infinite; }
-
-@keyframes rotate360 {
-  0% { transform: translate(-50%, -50%) rotate(0); }
-  100% { transform: translate(-50%, -50%) rotate(1turn); }
-}
 
 
 
