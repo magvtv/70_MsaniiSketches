@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Msanii Sketches - Hyperrealistic Portrait Artist",
+    "description": "Professional hyperrealistic pencil portrait artist based in Nairobi, Kenya. Capturing Kenyan stories through art. Commission custom portraits for weddings, events, corporate gifts and personal memories."
+  },
+  "navigation": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "commissions": "Commissions",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Msanii Sketches",
+    "rotatingTitles": [
+      "Portrait Artist",
+      "Hyperrealistic",
+      "Pencil Master",
+      "Storyteller"
+    ],
+    "subtitle": "Capturing Kenyan Stories Through Hyperrealistic Portraits",
+    "cta": {
+      "primary": "View Gallery",
+      "secondary": "Commission a Portrait"
+    }
+  },
+  "gallery": {
+    "title": "Featured Work",
+    "filters": {
+      "all": "All",
+      "publicFigures": "Public Figures",
+      "personal": "Personal",
+      "events": "Events",
+      "corporate": "Corporate"
+    },
+    "items": [
+      {
+        "title": "Hon. Musalia Mudavadi",
+        "category": "Public Figure",
+        "description": "Deputy Prime Minister of Kenya"
+      },
+      {
+        "title": "Boniface Mwangi",
+        "category": "Public Figure",
+        "description": "Activist & Photojournalist"
+      }
+    ]
+  },
+  "commissions": {
+    "title": "Commission Your Portrait",
+    "subtitle": "Choose the perfect package for your needs",
+    "packages": {
+      "standard": {
+        "title": "Standard Portrait",
+        "price": "KES 15,000",
+        "features": [
+          "High-resolution digital file",
+          "A3 print (297×420mm)",
+          "Matte finish, archival paper",
+          "7-10 business day turnaround",
+          "Two revision rounds"
+        ],
+        "cta": "Commission Now"
+      },
+      "premium": {
+        "title": "Premium Portrait",
+        "tag": "Most Popular",
+        "price": "KES 25,000",
+        "features": [
+          "Everything in Standard, plus:",
+          "A2 mounted print (420×594mm)",
+          "Museum-quality mount board",
+          "5-7 business day turnaround",
+          "Premium gift packaging",
+          "Certificate of authenticity"
+        ],
+        "cta": "Commission Now"
+      },
+      "deluxe": {
+        "title": "Deluxe Portrait",
+        "price": "KES 40,000",
+        "features": [
+          "Everything in Premium, plus:",
+          "A1 size portrait (594×841mm)",
+          "Custom framing included",
+          "3-5 business day turnaround",
+          "Complimentary A4 print",
+          "Video of creation process"
+        ],
+        "cta": "Commission Now"
+      }
+    }
+  },
+  "about": {
+    "title": "About the Artist",
+    "content": [
+      "I've been drawing since childhood, but it wasn't until I discovered hyperrealistic portraiture that I found my true calling. Through pencil and paper, I strive to capture not just faces, but stories—every line, shadow, and highlight carefully crafted to preserve moments that matter.",
+      "Based in Nairobi, I've had the honor of creating portraits for Kenya's most influential leaders, from Deputy Prime Minister Musalia Mudavadi to activist Boniface Mwangi. But whether I'm drawing a public figure or a family's cherished memory, every portrait receives the same dedication to detail and excellence.",
+      "Each piece takes 8-12 hours of focused work, using professional-grade materials to ensure your portrait will last generations. I believe in the power of art to preserve legacies, celebrate milestones, and tell the stories that make us who we are."
+    ],
+    "stats": {
+      "experience": "10+ Years Experience",
+      "portraits": "30+ Portraits Completed",
+      "clients": "30+ Satisfied Clients"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to commission your portrait or have questions? Reach out through any of these channels:",
+    "channels": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+254 710 492 546"
+      },
+      "email": {
+        "label": "Email",
+        "value": "mobutusmailbox@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@msanii_sketches"
+      }
+    },
+    "form": {
+      "title": "Commission Request",
+      "fields": {
+        "name": {
+          "label": "Your Name",
+          "placeholder": "Your Name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Email Address"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Phone Number"
+        },
+        "package": {
+          "label": "Select Package",
+          "placeholder": "Select Package",
+          "options": [
+            {
+              "value": "standard",
+              "label": "Standard (KES 15,000)"
+            },
+            {
+              "value": "premium",
+              "label": "Premium (KES 25,000)"
+            },
+            {
+              "value": "deluxe",
+              "label": "Deluxe (KES 40,000)"
+            }
+          ]
+        },
+        "message": {
+          "label": "Your Message",
+          "placeholder": "Tell me about the portrait you want..."
+        }
+      },
+      "submit": "Send Request"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Msanii Sketches. All Rights Reserved",
+    "socialLinks": {
+      "instagram": "https://instagram.com/msanii_sketches",
+      "whatsapp": "https://wa.me/254710492546"
+    }
+  }
+}

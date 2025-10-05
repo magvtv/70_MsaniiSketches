@@ -1,6 +1,69 @@
 'use strict';
 
+// Language handling
+const DEFAULT_LANG = 'en';
+const SUPPORTED_LANGUAGES = ['en', 'es', 'ja'];
 
+// Detect user's language
+function detectUserLanguage() {
+  const browserLang = navigator.language.split('-')[0];
+  return SUPPORTED_LANGUAGES.includes(browserLang) ? browserLang : DEFAULT_LANG;
+}
+
+// Load content for specific language
+async function loadLanguageContent(lang) {
+  try {
+    const response = await fetch(`./assets/content/${lang}-web-content.json`);
+    if (!response.ok) throw new Error('Content not found');
+    const content = await response.json();
+    updatePageContent(content);
+  } catch (error) {
+    console.error('Error loading language content:', error);
+    if (lang !== DEFAULT_LANG) loadLanguageContent(DEFAULT_LANG);
+  }
+}
+
+// Update page content with loaded language
+function updatePageContent(content) {
+  // Update meta tags
+  document.title = content.meta.title;
+  document.querySelector('meta[name="title"]').content = content.meta.title;
+  document.querySelector('meta[name="description"]').content = content.meta.description;
+  
+  // Update all elements with data-content attribute
+  document.querySelectorAll('[data-content]').forEach(element => {
+    const contentPath = element.dataset.content.split('.');
+    let contentValue = content;
+    
+    for (const path of contentPath) {
+      if (contentValue && contentValue[path]) {
+        contentValue = contentValue[path];
+      } else {
+        console.warn(`Content not found for path: ${element.dataset.content}`);
+        return;
+      }
+    }
+    
+    if (typeof contentValue === 'string') {
+      element.textContent = contentValue;
+    }
+  });
+}
+
+// Initialize language handling
+document.addEventListener('DOMContentLoaded', () => {
+  const userLang = detectUserLanguage();
+  loadLanguageContent(userLang);
+  
+  // Add language selector if it exists
+  const langSelector = document.querySelector('#languageSelector');
+  if (langSelector) {
+    langSelector.value = userLang;
+    langSelector.addEventListener('change', (e) => {
+      loadLanguageContent(e.target.value);
+    });
+  }
+});
 
 // add Event on multiple elment
 

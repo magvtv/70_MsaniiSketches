@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Msanii Sketches - Artista de Retratos Hiperrealistas",
+    "description": "Artista profesional de retratos hiperrealistas a lápiz con sede en Nairobi, Kenia. Capturando historias kenianas a través del arte. Encarga retratos personalizados para bodas, eventos, regalos corporativos y recuerdos personales."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "commissions": "Encargos",
+    "about": "Sobre Mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Msanii Sketches",
+    "rotatingTitles": [
+      "Retratista",
+      "Hiperrealista",
+      "Maestro del Lápiz",
+      "Narrador"
+    ],
+    "subtitle": "Capturando Historias Kenianas a través de Retratos Hiperrealistas",
+    "cta": {
+      "primary": "Ver Galería",
+      "secondary": "Encargar un Retrato"
+    }
+  },
+  "gallery": {
+    "title": "Trabajos Destacados",
+    "filters": {
+      "all": "Todos",
+      "publicFigures": "Figuras Públicas",
+      "personal": "Personal",
+      "events": "Eventos",
+      "corporate": "Corporativo"
+    },
+    "items": [
+      {
+        "title": "Hon. Musalia Mudavadi",
+        "category": "Figura Pública",
+        "description": "Vice Primer Ministro de Kenia"
+      },
+      {
+        "title": "Boniface Mwangi",
+        "category": "Figura Pública",
+        "description": "Activista y Fotoperiodista"
+      }
+    ]
+  },
+  "commissions": {
+    "title": "Encarga tu Retrato",
+    "subtitle": "Elige el paquete perfecto para tus necesidades",
+    "packages": {
+      "standard": {
+        "title": "Retrato Estándar",
+        "price": "KES 15,000",
+        "features": [
+          "Archivo digital de alta resolución",
+          "Impresión A3 (297×420mm)",
+          "Acabado mate, papel de archivo",
+          "Entrega en 7-10 días hábiles",
+          "Dos rondas de revisión"
+        ],
+        "cta": "Encargar Ahora"
+      },
+      "premium": {
+        "title": "Retrato Premium",
+        "tag": "Más Popular",
+        "price": "KES 25,000",
+        "features": [
+          "Todo lo del Estándar, más:",
+          "Impresión A2 montada (420×594mm)",
+          "Soporte de calidad museo",
+          "Entrega en 5-7 días hábiles",
+          "Empaque premium para regalo",
+          "Certificado de autenticidad"
+        ],
+        "cta": "Encargar Ahora"
+      },
+      "deluxe": {
+        "title": "Retrato Deluxe",
+        "price": "KES 40,000",
+        "features": [
+          "Todo lo del Premium, más:",
+          "Retrato tamaño A1 (594×841mm)",
+          "Marco personalizado incluido",
+          "Entrega en 3-5 días hábiles",
+          "Impresión A4 de cortesía",
+          "Video del proceso de creación"
+        ],
+        "cta": "Encargar Ahora"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre el Artista",
+    "content": [
+      "Dibujo desde la infancia, pero no fue hasta que descubrí el retrato hiperrealista que encontré mi verdadera vocación. A través del lápiz y el papel, me esfuerzo por capturar no solo rostros, sino historias: cada línea, sombra y destaque cuidadosamente elaborado para preservar momentos importantes.",
+      "Con sede en Nairobi, he tenido el honor de crear retratos para los líderes más influyentes de Kenia, desde el Vice Primer Ministro Musalia Mudavadi hasta el activista Boniface Mwangi. Pero ya sea que esté dibujando a una figura pública o un recuerdo familiar preciado, cada retrato recibe la misma dedicación al detalle y excelencia.",
+      "Cada pieza requiere 8-12 horas de trabajo enfocado, utilizando materiales de grado profesional para garantizar que tu retrato dure generaciones. Creo en el poder del arte para preservar legados, celebrar hitos y contar las historias que nos hacen quienes somos."
+    ],
+    "stats": {
+      "experience": "5+ Años de Experiencia",
+      "portraits": "100+ Retratos Completados",
+      "clients": "50+ Clientes Satisfechos"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Listo para encargar tu retrato o tienes preguntas? Contáctame a través de estos canales:",
+    "channels": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+254 710 492 546"
+      },
+      "email": {
+        "label": "Correo",
+        "value": "mobutusmailbox@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@msanii_sketches"
+      }
+    },
+    "form": {
+      "title": "Solicitud de Encargo",
+      "fields": {
+        "name": {
+          "label": "Tu Nombre",
+          "placeholder": "Tu Nombre"
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "Correo Electrónico"
+        },
+        "phone": {
+          "label": "Número de Teléfono",
+          "placeholder": "Número de Teléfono"
+        },
+        "package": {
+          "label": "Seleccionar Paquete",
+          "placeholder": "Seleccionar Paquete",
+          "options": [
+            {
+              "value": "standard",
+              "label": "Estándar (KES 15,000)"
+            },
+            {
+              "value": "premium",
+              "label": "Premium (KES 25,000)"
+            },
+            {
+              "value": "deluxe",
+              "label": "Deluxe (KES 40,000)"
+            }
+          ]
+        },
+        "message": {
+          "label": "Tu Mensaje",
+          "placeholder": "Cuéntame sobre el retrato que deseas..."
+        }
+      },
+      "submit": "Enviar Solicitud"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Msanii Sketches. Todos los derechos reservados",
+    "socialLinks": {
+      "instagram": "https://instagram.com/msanii_sketches",
+      "whatsapp": "https://wa.me/254710492546"
+    }
+  }
+}
