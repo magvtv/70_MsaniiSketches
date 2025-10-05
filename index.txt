@@ -1,196 +1,481 @@
-Richard Ryan
-
-This is a photographer portfolio html template, made by codewithsadee.
-
-
-
-#---------- HEADER ----------#
-
-alt = Richard home
-
-aria-label = open menu
-alt = menu icon
-
-alt = Richard home
-
-aria-label = close menu
-
-Home
-Gallery
-About
-Services
-Portfolio
-Contact us
-
-alt = user icon
-Login
-
-My Address
-
-3287 Indiana Avenue, Waialua, Hawaii
-
-Urgent issue? call us at
-808-561-3846
-
-
-
-#---------- HERO ----------#
-
-Richard Ryan
-
-Photographer
-Shutterbug
-Cameraman
-Pacific Portraits
-
-15+ Years Of Experience
-
-
-
-#---------- GALLERY ----------#
-
-The Drunken
-Food, Event
-alt = arrow-forward icon
-
-Lettuce Entertain
-Landscape
-
-Leaping Lizard
-Model, Fashion
-
-Juan More Taco
-Architecture, Event
-
-Goldilox Bagels
-People, Film
-
-Cookie Monstah
-Wedding, Event
-
-Divine Pastabilities
-Wedding, Model
-
-The Lockhart Bar
-Health & Wellnes
-
-alt = mouse scroll
-
-
-
-#---------- CATEGORY ----------#
- 
-Landscape,
-Model,
-Street,
-Product,
-Fashion,
-Film,
-Architecture,
-Event,
-Wedding,
-People,
-Event,
-Food,
-Health & Wellnes.
-
-
-
-#---------- CATEGORY ----------#
-
-Hi. I’m
-Richard Ryan
-
-A passionate
-photograher
-who are working in this field for 
-last 10 years. 
-I’m ready to give you my best.
-
-alt = signature
-
-alt = Riachard Ryan
-
-
-
-#---------- SERVICE ----------#
-
-My Services
-
-Wedding Photography
-Aut temporibus qui vero.
-
-aria-label = See more
-
-<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none"><path d="M0 10H41" stroke="white" stroke-width="2" /><path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" /></svg>
-
-Event Organiser
-Nobis, magni modi ipsa culpa.
-
-Product Marketing
-Tenetur porro repellendus!
-
-Videography
-Amet consectetur adipisicing elit
-
-
-
-#---------- PORTFOLIO ----------#
-
-My Recent Work.
-
-Shoe Promo
-Product
-
-aria-label = See more
-
-<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none"><path d="M0 10H41" stroke="black" stroke-width="2" /><path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" /></svg>
-
-Wedding Shot
-Wedding
-
-Fashion Show
-Fashion, Model
-
-Jumbo Barger
-Food
-
-
-
-#---------- CONTACT ----------#
-
-Contact Us
-
-Work inquiry, Job oportunities? Send Message.
-
-alt = arrow-forward icon
-
-alt = photography
-
-
-
-#---------- FOOTER ----------#
-
-alt = Richard home
-
-Fa.
-Insta.
-Tw.
-
-Made with love
-
-alt = photography
-
-
-
-#---------- BACK TO TOP ----------#
-
-aria-label = back to top
-
-
-
-#---------- LOADING ----------#
-
-alt = loading
-
-alt = loading shape
+PHAREX ERADION PORTFOLIO WEBSITE
+================================
+Content Reference Document
+Last Updated: October 2025
+
+---
+
+PROJECT OVERVIEW
+-----------------
+Artist: Pharex Eradion
+Specialty: Hyperrealistic Pencil Portraits
+Location: Nairobi, Kenya
+Instagram: @msanii_sketches
+Contact: +254 710 492 546
+Email: mobutusmailbox@gmail.com
+
+---
+
+SITE STRUCTURE
+--------------
+1. Header/Navigation
+2. Hero Section
+3. Gallery
+4. Categories
+5. About
+6. Commission Packages (Services)
+7. Recent Work (Portfolio)
+8. Contact/Footer
+
+---
+
+NAVIGATION MENU ITEMS
+---------------------
+- Home (#home)
+- Gallery (#gallery)
+- About (#about)
+- Commissions (#services)
+- Recent Work (#portfolio)
+- Contact (#contact)
+
+---
+
+HERO SECTION CONTENT
+--------------------
+Main Title: Pharex Eradion
+
+Rotating Text (4 variations):
+1. Portrait Artist
+2. Hyperrealism
+3. Pencil & Paper
+4. Kenyan Stories
+
+Tagline: Capturing Moments That Last Forever
+
+---
+
+GALLERY SECTION (8 Cards)
+--------------------------
+Card 1:
+- Title: Musalia Mudavadi
+- Tag: Public Figure, Leadership
+- Image: gallery-1.jpg
+
+Card 2:
+- Title: Boniface Mwangi
+- Tag: Activist, Photojournalist
+- Image: gallery-2.jpg
+
+Card 3:
+- Title: Wedding Memory
+- Tag: Event, Personal
+- Image: gallery-3.jpg
+
+Card 4:
+- Title: Alfred Mutua
+- Tag: Governor, Public Figure
+- Image: gallery-4.jpg
+
+Card 5:
+- Title: Precious Moment
+- Tag: Children, Family
+- Image: gallery-5.jpg
+
+Card 6:
+- Title: Abel Mutua
+- Tag: Actor, Content Creator
+- Image: gallery-6.jpg
+
+Card 7:
+- Title: Executive Portrait
+- Tag: Corporate, Professional
+- Image: gallery-7.jpg
+
+Card 8:
+- Title: Family Heirloom
+- Tag: Personal, Memorial
+- Image: gallery-8.jpg
+
+---
+
+CATEGORIES (13 Types)
+---------------------
+1. Public Figures (category-1.jpg)
+2. Wedding (category-2.jpg)
+3. Children (category-3.jpg)
+4. Corporate (category-4.jpg)
+5. Events (category-5.jpg)
+6. Memorial (category-6.jpg)
+7. Graduation (category-7.jpg)
+8. Fashion (category-8.jpg)
+9. Personal (category-9.jpg)
+10. Family (category-10.jpg)
+11. Couples (category-11.jpg)
+12. Retirement (category-12.jpg)
+13. Anniversary (category-13.jpg)
+
+---
+
+ABOUT SECTION CONTENT
+----------------------
+Headline: Hi. I'm Pharex Eradion
+
+Body Text:
+"A passionate hyperrealistic portrait artist based in Nairobi, Kenya. 
+I believe art has the power to preserve moments and honor legacies 
+that last forever."
+
+Image: about-banner.jpg (photo of artist working)
+Signature: signature.png
+
+---
+
+COMMISSION PACKAGES (4 Tiers)
+------------------------------
+
+Package 1: STANDARD PORTRAIT
+- Price: KES 15,000
+- Description: Digital file + A3 print, 7-10 days
+- Image: service-1.jpg
+
+Package 2: PREMIUM PORTRAIT
+- Price: KES 25,000
+- Description: A2 mounted print, priority 5-7 days
+- Image: service-2.jpg
+
+Package 3: DELUXE PORTRAIT
+- Price: KES 40,000
+- Description: A1 with custom framing, 3-5 days
+- Image: service-3.jpg
+
+Package 4: CUSTOM COMMISSIONS
+- Price: Variable
+- Description: Multiple subjects, backgrounds, special requests
+- Image: service-4.jpg
+
+---
+
+RECENT WORK / PORTFOLIO (4 Pieces)
+-----------------------------------
+
+Portfolio 1:
+- Title: Leadership Portrait
+- Tag: Public Figure
+- Image: portfolio-1.jpg (700x605px)
+
+Portfolio 2:
+- Title: Wedding Memory
+- Tag: Event
+- Image: portfolio-2.jpg (700x1091px)
+
+Portfolio 3:
+- Title: Fashion Portrait
+- Tag: Fashion, Model
+- Image: portfolio-3.jpg (700x1000px)
+
+Portfolio 4:
+- Title: Family Heirloom
+- Tag: Personal
+- Image: portfolio-4.jpg (700x850px)
+
+---
+
+CONTACT/FOOTER SECTION
+----------------------
+Section Subtitle: Commission a Portrait
+
+Main Heading: 
+"Ready to preserve your memory? Let's create something timeless."
+
+Call-to-Action: WhatsApp Link (https://wa.me/254710492546)
+
+Footer Images (samples):
+- footer-1.jpg (159x176px)
+- footer-2.jpg (265x275px)
+- footer-3.jpg (303x272px)
+- footer-4.jpg (175x175px)
+
+Background: footer-bg.jpg (1920x1135px)
+
+Social Links:
+- Instagram: https://instagram.com/msanii_sketches
+- WhatsApp: https://wa.me/254710492546
+- Email: mailto:mobutusmailbox@gmail.com
+
+Copyright: © 2025 Pharex Eradion. Capturing Kenyan Stories.
+
+---
+
+IMAGES NEEDED (Total: 40 files)
+--------------------------------
+
+LOGOS/BRANDING:
+- favicon.svg (website icon)
+- logo.svg (header logo, 40x40px)
+- nav-logo.svg (mobile menu logo, 140x40px)
+- signature.png (artist signature, 151x92px)
+
+HERO:
+- hero-banner.png (profile/signature piece, 322x322px)
+- hero-shape.svg (decorative element)
+
+GALLERY (8 images):
+- gallery-1.jpg through gallery-8.jpg (450x625px each)
+- gallery-shape.svg (decorative)
+
+CATEGORIES (13 images):
+- category-1.jpg through category-11.jpg (600x690px each)
+
+ABOUT:
+- about-banner.jpg (512x684px)
+- about-quote.svg (decorative)
+- about-shape-1.png (178x178px)
+- about-shape-2.svg (659x653px)
+- about-shape-3.svg (239x232px)
+
+SERVICES (4 images):
+- service-1.jpg through service-4.jpg (340x380px each)
+
+PORTFOLIO (4 images):
+- portfolio-1.jpg (700x605px)
+- portfolio-2.jpg (700x1091px)
+- portfolio-3.jpg (700x1000px)
+- portfolio-4.jpg (700x850px)
+- portfolio-shape.svg (decorative)
+
+FOOTER (5 images):
+- footer-1.jpg (159x176px)
+- footer-2.jpg (265x275px)
+- footer-3.jpg (303x272px)
+- footer-4.jpg (175x175px)
+- footer-bg.jpg (1920x1135px)
+- footer-shape.svg (decorative)
+
+UI ELEMENTS (provided in template):
+- loading.svg
+- loading-circle.svg
+- menu.svg
+- user.svg
+- arrow-forward.svg
+- scroll-down.svg
+
+---
+
+IMAGE SOURCING GUIDE
+--------------------
+
+FROM INSTAGRAM (@msanii_sketches):
+Priority images to use:
+1. Musalia Mudavadi portrait → gallery-1.jpg, portfolio-1.jpg
+2. Boniface Mwangi portrait → gallery-2.jpg
+3. Alfred Mutua portrait → gallery-4.jpg
+4. Abel Mutua portrait → gallery-6.jpg
+5. Best child portrait → gallery-5.jpg, category-3.jpg
+6. Best wedding/couple → gallery-3.jpg, portfolio-2.jpg
+7. Best corporate/exec → gallery-7.jpg
+8. Best family piece → gallery-8.jpg, portfolio-4.jpg
+
+NEED TO CREATE/PHOTOGRAPH:
+- Photo of artist creating art → about-banner.jpg
+- Artist's signature → signature.png
+- Logo/branding → logo files
+
+CAN REUSE SAME IMAGE FOR:
+- Categories use same images as gallery where applicable
+- Services can use cropped versions of portfolio pieces
+- Footer samples can reuse gallery/portfolio images
+
+---
+
+IMAGE OPTIMIZATION CHECKLIST
+-----------------------------
+Before adding images to site:
+
+1. RESIZE to exact dimensions specified above
+2. COMPRESS to under 500KB each (use tinypng.com or squoosh.app)
+3. CONVERT large images to WebP format (optional but recommended)
+4. RENAME to match exact filenames in index (case-sensitive)
+5. ORGANIZE in /assets/images/ folder
+6. TEST all images load properly on localhost
+
+---
+
+CONTACT INFORMATION TO UPDATE
+------------------------------
+Current placeholders to replace:
+
+Phone: +254710492546 (CORRECT - keep as is)
+Email: mobutusmailbox@gmail.com (CORRECT - keep as is)
+Instagram: @msanii_sketches (CORRECT - keep as is)
+WhatsApp: https://wa.me/254710492546 (CORRECT - keep as is)
+Location: Nairobi, Kenya (CORRECT - keep as is)
+
+---
+
+SEO METADATA (in HTML <head>)
+------------------------------
+Page Title: Pharex Eradion - Hyperrealistic Portrait Artist
+
+Meta Description:
+"Professional hyperrealistic pencil portrait artist based in Nairobi, Kenya. 
+Capturing Kenyan stories through art. Commission custom portraits for weddings, 
+events, corporate gifts, and personal memories."
+
+Keywords (for reference):
+- Portrait artist Kenya
+- Hyperrealistic portraits Nairobi
+- Custom portrait commission
+- Pencil portrait artist
+- Kenyan artist
+- Wedding portrait
+- Corporate portrait
+- Family portrait
+- Memorial portrait
+
+---
+
+DEPLOYMENT STEPS
+----------------
+
+LOCAL SETUP:
+1. Create project folder: pharex-eradion-portfolio
+2. Add index.html (updated content)
+3. Add /assets/css/style.css (no changes)
+4. Add /assets/js/script.js (no changes)
+5. Add /assets/font/ (font files from template)
+6. Add /assets/images/ (all 40 images listed above)
+7. Test on localhost (use Live Server in VS Code)
+
+NETLIFY DEPLOYMENT:
+1. Push code to GitHub repository
+2. Connect GitHub repo to Netlify
+3. Build settings: Leave default (static site)
+4. Deploy
+5. Get URL: [yourname].netlify.app
+6. (Optional) Buy custom domain: pharexeradion.com
+7. Point domain to Netlify
+
+FINAL CHECKS:
+- [ ] All navigation links work
+- [ ] All images load properly
+- [ ] Mobile responsive (test on phone)
+- [ ] WhatsApp link opens correctly
+- [ ] Email link opens mail client
+- [ ] Instagram link opens profile
+- [ ] Back to top button works
+- [ ] Animations smooth
+- [ ] Load time under 3 seconds
+
+---
+
+MAINTENANCE TASKS
+-----------------
+
+WEEKLY:
+- Check for new Instagram DMs/inquiries
+- Respond to contact form submissions
+- Update "Recent Work" section with new commissions
+
+MONTHLY:
+- Add 2-4 new gallery images from recent work
+- Update Instagram feed
+- Check analytics (Netlify provides basic stats)
+
+QUARTERLY:
+- Review and update pricing if needed
+- Add new categories if expanding services
+- Update about section if notable achievements
+
+---
+
+FUTURE ENHANCEMENTS (Post-Launch)
+----------------------------------
+
+Phase 2 (Month 2-3):
+- [ ] Add blog section for process posts
+- [ ] Integrate Instagram feed API
+- [ ] Add testimonials section
+- [ ] Set up contact form backend (Netlify Forms)
+
+Phase 3 (Month 4-6):
+- [ ] Add online booking/scheduling
+- [ ] Create pricing calculator
+- [ ] Add payment integration (M-Pesa)
+- [ ] Build client portal for progress updates
+
+Phase 4 (Long-term):
+- [ ] Multi-language support (Swahili)
+- [ ] Video testimonials
+- [ ] Time-lapse process videos
+- [ ] E-commerce for prints
+
+---
+
+NOTES & REMINDERS
+-----------------
+
+IMPORTANT:
+- Template uses custom fonts - keep /assets/font/ folder intact
+- Custom cursor effect works on desktop only (disabled on mobile)
+- Animations use data-reveal attribute (handled by JS)
+- All SVG shapes are decorative (can be customized later)
+
+CONTENT PHILOSOPHY:
+- Keep captions short and emotional
+- Focus on storytelling, not just listing features
+- Every section should have clear call-to-action
+- Use real client names where possible (with permission)
+
+INSTAGRAM STRATEGY:
+- Tag all public figures in posts
+- Use 10-15 hashtags per post (see strategy doc)
+- Post 3x weekly minimum
+- Respond to all comments within 24 hours
+- Share website link in bio
+
+SUCCESS METRICS (Track Monthly):
+- Website visitors (Netlify analytics)
+- Instagram followers growth
+- Inquiry form submissions
+- WhatsApp messages received
+- Commissions booked
+- Revenue generated
+
+TARGET (3 Months):
+- 500+ website visitors/month
+- 5-10 inquiries/month
+- 3-5 commissions/month
+- KES 75,000-200,000 revenue/month
+
+---
+
+LAUNCH DATE TARGET
+------------------
+THIS WEEKEND (2 days)
+
+Saturday:
+- Gather/optimize all images (6 hours)
+- Replace content in HTML (2 hours)
+- Test locally (1 hour)
+
+Sunday:
+- Final tweaks (1 hour)
+- Push to GitHub (30 min)
+- Deploy to Netlify (30 min)
+- Test live site (1 hour)
+- Share with dad (priceless)
+
+TOTAL TIME: 12 hours over weekend
+
+---
+
+CONTACT FOR UPDATES
+-------------------
+Instagram DM: @msanii_sketches
+WhatsApp: +254710492546
+Email: mobutusmailbox@gmail.com
+
+---
+
+END OF INDEX
+============
